@@ -13,7 +13,7 @@
                             <tr>
                                 <th scope="col">Comment</th>
                                 <th scope="col">Owner</th>
-                                <th scope="col">OWNER EMAIL</th>
+                                <th scope="col">Owner Email</th>
                                 <th scope="col">Post</th>
                                 <th scope="col">Action</th>
                             </tr>
