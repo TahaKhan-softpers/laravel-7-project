@@ -1,0 +1,711 @@
+body{
+	margin:0px;
+	border: 0px;
+	padding: 0px;
+
+}
+a{
+	text-decoration: none;
+	color: grey;
+}
+a:hover{
+	color: black;
+	text-decoration: underline;
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+}
+.container-fluid{
+	/*padding: 0px;*/
+}
+/*=======================this is  navabar css=======================================================*/
+.navbar-light ,.navbar{
+	background-color:white;
+}
+.nav-item{
+	padding:10px;
+	/*margin-bottom: 20px; */
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+}
+.navbar-spacing{
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+/*=====================this is image1 div css=====================================================*/
+.image1{
+	width: 100%;
+	height: 500px;
+	opacity: 0.5px;
+	margin: 0px;
+	/*background-color: black;*/
+	background-image: url('../img/jon-sailer-PQKtH8HNWw8-unsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	text-align: center;
+}
+.text1{
+	/*text-align: center;*/
+	line-height:500px;
+	font-size: 80px;
+}
+/*===========================this is bread crumb csss===============================================*/
+.breadcrumb{
+	border-radius: 0px;
+	background-color: transparent;
+	margin: 0px;
+}
+/*.breadcrumb::before{
+	content: ">";
+	$breadcrumb-divider: quote(">");
+}*/
+/*.breadcrumb > li + li:before {
+    color: #ccc;
+    content: ">";
+    padding: 0 5px;
+}*/
+
+.breadcrumb-item + .breadcrumb-item::before {
+       color: #ccc;
+       content: ">";
+       padding: 0 5px;
+    }
+/* ===========================this is css in shop css ====================================================*/
+
+
+/*this is filer area css*/
+.filter-div{
+		padding: 20px;
+		margin-bottom: 10px;
+}
+.filter-button-main{
+	width: 1250px;
+}
+.filter-button-second{
+	width: 1239px;
+	height: 300px;
+	background-color: orange;
+	padding-left: 20px;
+	margin-bottom: 20px;
+	border:1px solid lightgrey;
+	display: none;
+}
+.button-filter{
+	width: 150px;
+	text-align: center;
+	border-radius: 0px;
+}
+.sort-div{
+	padding: 20px;
+	text-align: right;
+}
+.button-sort,.button-sort1{
+	border-radius: 0px;
+
+}
+.button-sort1{
+	width: 110px;
+}
+/*this is upper filter card css   Note : the cards used are custom used from main page*/
+
+.filter-rmain-container{
+	width: 1280px;
+	margin-bottom: 50px;
+}
+.filter-rtop-main{
+	width: 240px;
+	height: 500px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+/*.filter-rtop-main:hover{
+	border: 5px solid #9ab0d2;
+	
+}*/
+
+.filter-rtop-idiv {
+/*filter result top*/
+	max-width: 240px;
+	max-height: 300px;
+	margin-bottom: 40px;
+	
+}
+.filter-rtop-img{
+	width:100%;
+	height: 300px;
+}
+.filter-rtop-desc{
+	width: 100%;
+	height: 300px;
+}
+
+.filter-rbottom-main{
+	width: 240px;
+	height: 420px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+/*.filter-rtop-main:hover{
+	border: 5px solid #9ab0d2;
+	
+}*/
+
+.filter-rbottom-idiv {
+/*filter result top*/
+	max-width: 240px;
+	max-height: 250px;
+	margin-bottom: 40px;
+	
+}
+.filter-rbottom-img{
+	width:100%;
+	height: 250px;
+}
+.filter-rbottom-desc{
+	width: 100%;
+	height: 30%;
+}
+
+.filter-rlorem{
+	padding-right: 0px;
+	padding-left: 2px;
+}
+.filter-rstars{
+	padding-left: 0px;
+	text-align: right;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.filter-rprice{
+	font-size: 20px;
+	color: red;
+}
+/*.filter-icons{
+	height: 27px;
+	max-width: 30px;
+	max-height: 30px;
+	color: red;
+	padding-left: 9px;
+}*/
+
+
+
+
+/*this is lower filter cards css*/
+
+/*this is load more css*/
+.button-loadmore{
+	border-radius: 0px;
+	margin-bottom: 100px;
+}
+/*==========================this is news letter css=================================================*/
+.newsletter-color{
+	background-color: #e3e6e8;
+}
+.newsletter{
+	height: 100px;
+	width: 100%;
+	padding: 20px;
+ 	text-align: center;
+ 	background-color:#e3e6e8; 
+}
+.newsletter-head{
+	font-size: 20px;
+	font-weight: bold;
+}
+.line{
+	width: 100%;
+	border-bottom: 1px solid darkgrey;
+}
+/*==========================this is footer css======================================================*/
+.footer-color{
+	background-color: #e3e6e8;
+}
+.footer{
+	width: 100%;
+	height: 400px;
+	padding: 60px;
+	padding-left: 100px;
+	
+}
+.icons{
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	color: darkgrey;
+	float: left;
+}
+.iconsdiv{
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+}
+.tbl1{
+	
+}
+.trow{
+	
+}
+.thead1 , .td1{
+	padding: 25px;
+	padding-right: 90px;
+}
+
+
+/*=====================this is where main page css starts======================================*/
+
+.main-slider-div{
+	position: relative;
+	max-height: 500px;
+	width: 100%;
+
+}
+.main-slider-img1{
+	max-height: 500px;
+	width: 100%;
+}
+.slider-button{
+	width: 250px;
+	font-size: 30px
+}
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+/*this is customer requirments div*/
+.cust-req{
+	padding-top:50px;
+	padding-bottom: 50px; 
+}
+/*this is where card custom designed is */
+.card-custom1{
+padding-right: 8px;
+}
+.card-custom2{
+	padding-left:8px; 
+}
+.card-bound{
+	border: 0px;
+}
+.card-btn-custom{
+	margin-top: 50px;
+	margin-bottom: 50px
+	
+
+}
+
+
+/*this is where popular products div css */
+.popular-head{
+	font-size: 40px;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	font-weight: bold;
+}
+.popular-products{
+}
+.popular-pcontainer{
+	width: 1250px;
+}
+.popular-pmain{
+	width: 300px;
+	height: 600px;
+	float: left;
+	margin-left: 5px;
+}
+.popular-pimg img{
+	max-width: 300px;
+	max-height: 300px;
+	background-color: orange;
+	border:2px solid grey;
+}
+.popular-pdesc{
+	width: 300px;
+	height: 300px;
+}
+.popular-pstars{
+	padding-left: 0px;
+	text-align: right;
+	line-height: 30px;
+}
+.popular-plorem{
+	padding-right: 0px;
+}
+.popular-price{
+	font-size: 20px;
+	color: red;
+}
+.popular-icons {
+	height: 25px;
+	max-width: 30px;
+	max-height: 30px;
+	color: red;
+}
+/*.popular-icon2{
+	max-width: 30px;
+	max-height: 30px;
+	background-image: url('assets/icons/truck.png');
+}
+
+*/
+/*================================ this is where footer slider in landing page css starts===============================*/
+/*.carousel{
+	background-color: black;
+}*/
+.slider-main-div{
+	margin-bottom: 20px;
+	background-color: #e3e6e8;;
+
+}
+.slider-quote{
+height: 400px;
+padding-right: 0px;
+}
+.slider-quote-img{
+	height: 340px;
+}
+.sq-div{
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.slider-person{
+height: 400px;
+padding-left: 0px;
+}
+.line{
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+}
+
+
+/*this is cart page css */
+.main-cart{
+	
+}
+
+/* ===================================================this is where cart page css starts */
+
+.myform {
+    text-align: center;
+    border: 1px solid lightgrey;
+    /*margin: 2%;*/
+}
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+input.qtyplus,.qtyminus,.qty { 
+	font-size: 16px;
+	background-color: transparent;
+	color: darkgrey;
+	border:0px;
+
+}
+input,select,option{
+	outline: none;
+}
+.table-div-cart{
+	margin-top: 90px;
+	margin-bottom: 20px;
+
+}
+.tbl-cart{
+	width: 100%;
+
+}
+.tbl-cart-head-row{
+	border-bottom: solid 3px blue; 
+}
+.thead2{
+	padding: 15px;
+}
+.td2-image{
+	max-height: 100px;
+	max-width: 100px;
+}
+.td2,.td2-div,.td2-cross,.td2-coupon{
+	padding: 40px;
+	padding-left:60px; 
+	padding-right:60px;
+	text-align: center;
+}
+.tbl-cart,.thead2,.td2,.td2-coupon{
+	border: 1px solid lightgrey;
+	border-collapse: collapse;
+	color: grey;
+}
+.td2-coupon{
+	padding-left: 30px;
+	padding-right: 40px;
+}
+
+.tbl-cart-btn1-div{
+	float: left;
+}
+/*.tbl-cart-btn1-input{
+	margin-right: 5px;
+}*/
+.tbl-cart-btn1{
+	width: 200px;
+	height: 50px;
+
+}
+.tbl-cart-btn2{
+	float: right;
+
+	width: 200px;
+	height: 50px;
+
+}
+
+/*input.qtyminus { 
+	width:25px; 
+	height:25px;
+}*/
+
+/*this is where total table div starts*/
+.tbl-total-div{
+	width: 500px;
+	height: 300px;
+	margin-right: 70px;
+}
+.tbl-total,.td3,.thead3{
+	border: 1px solid lightgrey;
+	columns: grey;
+}
+
+.thead3,.td3{
+	padding:15px;
+
+}
+.tbl-total{
+	width:inherit;
+}
+.td3{
+	text-align: right;
+	color: grey;
+}
+.tbl-total-space{
+	margin-top: 25px;
+}
+.btn-dark{
+	border-radius: 0px;
+	font-size: 15px;
+}
+
+/*=======================================this is whole site buttons color css==========================*/
+.btn-primary{
+	background-color: #5674ba;
+	border-color: #9ab0d2;
+}
+.btn-outline-primary{
+	border:1px solid lightgrey;
+	color: blue;
+}
+/*============================================this is where contact us css starts====================*/
+.contact-main{
+	width: 1100px ;
+	height: 420px ;
+
+	margin-top: 100px;
+}
+textarea{
+  resize: none;
+
+}
+.contact-input{
+	border-radius: 0px;
+}
+.contact-icon{
+	color: #5674ba;
+}
+.contact-address{
+	font-size: 14px;
+	color: grey;
+	text-align: right;
+}
+.contact-email{
+	color: #5674ba;
+	text-align: right;
+}
+.contact-heading{
+	padding-bottom: 12px;
+}
+
+/*====================================this css is used for checkout page =============================*/
+.checkout-main{
+		/*width: 1150px;*/
+		margin-top: 80px;
+		height: 1750px;
+		/*background-color: orange;*/
+}
+.alert-dark{
+		border-radius: 0px;	
+		background-color: #f9f9f9;
+		border-color: #f9f9f9;	
+}
+.checkout-input{
+	border-radius: 0px;
+}
+.checkout-on{
+	margin-top: 9px;
+	margin-bottom: 3px;
+	font-size: 14px;
+}
+.checkout-table{
+	width: 1094.160px;
+	height: 205px;
+	/*background-color: blue;*/
+}
+/*.checkout-tbl{
+	width: 100%;
+}*/
+.thead4,.thead4-right,.td4,.td4-right,.td5,.td5-right{
+	padding: 13px;
+	border: 1px solid #ced4da;
+}
+.thead4-right,.td4-right,.td5-right{
+	text-align: right;
+}
+.thead4,.thead4-right{
+	padding: 11px;
+	border-bottom: 4px solid #5674ba;
+}
+.td4,.td4-right{
+	color: grey;
+}
+.thead4,.td4,.td5{
+	width: 900px;
+}
+.thead4-right,.td4-right,.td5-right{
+	width: 200px;
+}
+.paypalbox-spacing{
+	margin-top: 20px;	
+	height: 450px;
+	background-image: url("../img/paypal.jpg");
+}
+.paypalbox{
+	/*width: 100%;
+	height: 450px;
+	padding: 50px;
+	background-color: #f9f9f9;*/
+}
+.paypalbox-inner{
+	/*width: 100%;
+	height:300px;
+	background-color: white;
+	box-shadow:10px 10px 5px #aaaaaa;*/
+
+}
+.radio-paypal{
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/*============================this is where main about us css starts================================= */
+.main-about-start{
+	height: 550px;
+	/*background-color: orange;*/
+	padding-top: 40px;
+}
+.main-para-start{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*text-align: center;
+	text-orientation:*/
+}
+.main-aboutus-title2
+{
+color: brown; font-family: 'PT Sans', sans-serif;}
+
+.main-aboutus-ldiv{
+	width: 150px;
+	height: 150px;
+}
+.main-aboutus-logo{
+	width: 150px;
+	height: 150px;
+	}
+
+.aboutus-section{
+	width: 100%;
+	height: 1000px;
+	
+}
+.aboutus-aside-left{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+.aboutus-aside-limg{
+	width: 100%;
+	height: inherit;
+
+}
+.aboutus-aside-right{
+	width: 50%;
+	height: 500px;
+	padding: 70px;
+	background: #f9f9f9;
+	float: left;
+}
+.aboutus-icon1{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.aboutus-desc{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.aboutus-count-padding{
+	padding: 80px;
+}
+.aboutus-count-left{
+	border-right: 2px dotted grey;
+}
+.aboutus-count-middle{
+
+}
+.aboutus-count-right{
+	border-left: 2px dotted grey;
+}
+.aboutus-count-number{
+	font-family: 'PT Serif', serif;
+	width: 100%;
+	height: 170px;
+	font-size: 140px;
+	color:#5674ba;
+	float: left;
+}
+.aboutus-count-line{
+
+	padding-top: 0px;
+	float: left;
+}
