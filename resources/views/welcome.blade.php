@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>Laravel567</title>
+        <title>Laravel heavily modified</title>
 
 
         <!-- Fonts -->
